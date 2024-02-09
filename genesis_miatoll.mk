@@ -20,7 +20,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/miatoll/device.mk)
 
 # Inherit common genesisExtended stuff.
-$(call inherit-product, vendor/genesis/config/common.mk)
+$(call inherit-product, vendor/genesis/config/common_full_phone.mk)
 
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
@@ -36,3 +36,4 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 # Inherit some common device props
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
+GENESIS_BUILDTYPE := UNOFFICIAL

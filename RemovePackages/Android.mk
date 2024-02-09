@@ -8,9 +8,6 @@ LOCAL_OVERRIDES_PACKAGES := \
     AmbientSensePrebuilt \
     AndroidAutoStub \
     arcore \
-    CalendarGooglePrebuilt \
-    Chrome \
-    Chrome-Stub \
     ConnMO \
     ConnMetrics \
     DCMO \
@@ -28,12 +25,8 @@ LOCAL_OVERRIDES_PACKAGES := \
     OemDmTrigger \
     OPScreenRecord \
     Ornament \
-    Photos \
-    PixelBuds \
     PixelLiveWallpaperPrebuilt \
     PrebuiltGmail \
-    RecorderPrebuilt \
-    SafetyHubPrebuilt \
     SCONE \
     ScribePrebuilt \
     Showcase \
